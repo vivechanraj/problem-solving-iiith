@@ -121,7 +121,7 @@
 		var offset=0;
 		while(element){
 			offset+=element[attr];
-			element=element.offsetParent
+			element=element.offsetParent;
 		}
 		return offset;
 	};
