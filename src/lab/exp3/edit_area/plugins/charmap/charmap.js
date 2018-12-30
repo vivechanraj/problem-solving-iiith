@@ -50,7 +50,9 @@ var EditArea_charmap= {
 	 */	 	 	
 	,onload: function(){ 
 		if(editArea.settings["charmap_default"] && editArea.settings["charmap_default"].length>0)
+		{
 			this.default_language= editArea.settings["charmap_default"];
+		}
 	}
 	
 	/**
