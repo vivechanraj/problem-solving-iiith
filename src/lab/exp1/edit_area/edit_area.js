@@ -19,7 +19,9 @@
 		parent.editAreaLoader.set_browser_infos(t); 	// navigator identification
 		// fix IE8 detection as we run in IE7 emulate mode through X-UA <meta> tag
 		if( t.isIE >= 8 )
+		{
 			t.isIE	= 7;
+		}	
 		
 		t.last_selection={};		
 		t.last_text_to_highlight="";
