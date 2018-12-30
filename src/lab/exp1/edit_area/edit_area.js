@@ -59,7 +59,10 @@
 		t.default_font_size= 10;*/
 		t.tab_nb_char= 8;	//nb of white spaces corresponding to a tabulation
 		if(t.isOpera)
+		{
+		
 			t.tab_nb_char= 6;
+		}
 
 		t.is_tabbing= false;
 		
